@@ -91,3 +91,5 @@ official FreeBSD sum source code
 official GNU sum manual page
 GNU sum source code
 Category: Checksum algorithms
+
+https://github.com/bitcoin/bips/blob/master/bip-0032/derivation.png?raw=true
