@@ -1,5 +1,9 @@
 #$1
-2
+2GET {https://yourApp/callback}
+    #id_$token=...&
+    #access_token=...&
+    state=...&
+    expires_in=...
 3#&$GET https://{yourDomain}/authorize
     ?response_type=id_token token&
     client_id=...&
