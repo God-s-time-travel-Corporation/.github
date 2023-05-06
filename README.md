@@ -1,5 +1,5 @@
 # .github
-https://trello.com/b/n44AxJQW/foundationscipnet-corporate-board
+$https://trello.com/b/n44AxJQW/foundationscipnet-corporate-board
 #int bsdChecksumFromFile(FILE *fp) /* The file handle for input data */
 {
     int checksum = 0;             /* The checksum mod 2^16. */
