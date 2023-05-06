@@ -1,4 +1,41 @@
-# .github
+# .2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+# This code sample uses the 'requests' library:
+# http://docs.python-requests.org
+import requests
+
+url = "https://api.trello.com/1/boards/{id}"
+
+query = {
+  'key': 'APIKey',
+  'token': 'APIToken'
+}
+
+response = requests.request(
+   "DELETE",
+   url,
+   params=query
+)
+
+print(response.text)
+Responses
+
+
 #$https://developer.atlassian.com/cloud/trello/rest/api-group-boards/#api-boards-id-memberships-get-example
 #$https://developer.atlassian.com/cloud/trello/rest/api-group-boards/#api-boards-id-memberships-get-example
 $https://trello.com/b/n44AxJQW/foundationscipnet-corporate-board
