@@ -1,6 +1,15 @@
 #$1
 2
-3
+3#&$GET https://{yourDomain}/authorize
+    ?response_type=id_token token&
+    client_id=...&
+    redirect_uri=...&
+    state=...&
+    scope=openid...&
+    nonce=...&
+    audience=...&
+    response_mode=...&
+    prompt=none
 4# Copyright (c) 2013-2020 The Bitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
