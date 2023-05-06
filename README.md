@@ -1,4 +1,21 @@
-#$JSON-RPC Interface
+#${
+  "uuid": "<payload-uuid>",
+  "next": {
+    "always": "https://xumm.app/sign/<payload-uuid>",
+    "no_push_msg_received": "https://xumm.app/sign/<payload-uuid>/qr"
+  },
+  "refs": {
+    "qr_png": "https://xumm.app/sign/<payload-uuid>_q.png",
+    "qr_matrix": "https://xumm.app/sign/<payload-uuid>_q.json",
+    "qr_uri_quality_opts": [
+      "m",
+      "q",
+      "h"
+    ],
+    "websocket_status": "wss://xumm.app/sign/<payload-uuid>"
+  },
+  "pushed": true
+}JSON-RPC Interface
 
 The headless daemon bitcoind has the JSON-RPC API enabled by default, the GUI bitcoin-qt has it disabled by default. This can be changed with the -server option. In the GUI it is possible to execute RPC methods in the Debug Console Dialog.
 
